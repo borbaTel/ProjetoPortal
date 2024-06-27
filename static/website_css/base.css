@@ -8,6 +8,7 @@ body {
 
 .user_btnn {
     font-size: 20px;
+    color: black;
 }
 
 .user_btnn:hover{
@@ -16,6 +17,7 @@ body {
 
 .navbar-brand{
     padding-left: 90px;
+    color: black;
 }
 
 .navbar-brand:hover{
@@ -152,11 +154,12 @@ body {
 .sidebar-list li a .sidebar-label {
     margin-left: 10px; /* Espaçamento entre o ícone e o texto */
     display: none; /* Esconde o nome inicialmente */
+    font-size: 20px;
 }
 
 .sidebar.expanded .sidebar-list li a .sidebar-label {
     display: inline-block; /* Mostra o nome quando a sidebar está expandida */
-    margin-top: -6px;
+    margin-top: -3px;
 }
 
 .sidebar.expanded .sidebar-list li a i {
