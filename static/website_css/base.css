@@ -21,4 +21,46 @@ body{
     position: relative;
 }
 
-
+/* Estilos gerais para remover bordas, cores azuis e sublinhados dos links */
+.custom-list .list-group-item {
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .custom-list .list-group-item a {
+    color: inherit;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center; /* Centraliza o texto dentro do item da lista */
+  }
+  
+  .custom-list .list-group-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Linha divisória entre o nome do usuário e a lista de links */
+  .divider {
+    border-top: 1px solid #868686; /* Linha um pouco mais escura */
+    margin: 10px 30px;
+    
+  }
+  
+  /* Estilo personalizado para o link de logout */
+  .logout-item a {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    margin: 0 80px;
+  }
+  
+  .logout-item a:hover {
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+  }
+  
