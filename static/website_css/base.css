@@ -8,13 +8,17 @@ body{
 }
 
 /* Estilo para o alerta */
-.alert {
-    position: fixed;
-    z-index: 1010;
-    width: 500px;
+.alerta {
+    position: absolute;
+    top: 50px; /* Ajuste conforme necessário */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px; /* Ajuste conforme necessário */
+    z-index: 1000; /* Garanta que o alerta fique acima de outros elementos */
 }
 
-.alerta{
-    margin-top: -20px;
+.container-fluid {
+    position: relative;
 }
+
 
